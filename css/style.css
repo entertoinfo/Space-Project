@@ -1,0 +1,9 @@
+*,
+*::after,
+*::before{
+  box-sizing: border-box;
+}
+.header{
+  background-image: url(/images/header-bg.jpg);
+  min-height: 100vh;
+}
