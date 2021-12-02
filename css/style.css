@@ -158,5 +158,8 @@ body {
   line-height: 17px;
 }
 .header__description-text + .header__description-text{
-  margin-right: 52px;
+  margin-right: 50px;
+}
+.about{
+  color: black;
 }
