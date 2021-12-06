@@ -262,3 +262,22 @@ margin-top: 20px;
   font-weight: bold;
   display: block;
 }
+.how-to {
+  background-image: url(/images/howto-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding-bottom: 100px;
+}
+.container {
+}
+.title {
+}
+.how-to__box {
+  text-align: center;
+}
+
+.how-to__box circle:hover{
+  r: 20px;
+  fill:#036CCA;
+}
