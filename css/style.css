@@ -301,26 +301,27 @@ foreignObject {
 
 .how-to__box g:hover foreignObject {
   color: #036CCA;
-  font-size: 25px; 
+  font-size: 25px;
 }
 
 foreignObject {
   text-align: left;
   line-height: 25px;
 }
-.to_book{
+
+.to_book {
   background-image: url(/images/tobook-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
   min-height: 100vh;
 }
-.to_book__inner{
+
+.to_book__inner {
   display: flex;
   justify-content: space-between;
 }
-.title {
-}
+
 .to_book__text {
   width: 165px;
   font-size: 14px;
@@ -329,7 +330,56 @@ foreignObject {
   margin-right: 52px;
   margin-top: 100px;
 }
-.to_book__text + .to_book__text {
+
+.to_book__text+.to_book__text {
   margin-right: 0px;
   margin-left: 0px;
+}
+
+.info {
+  background-image: url(/images/info-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding-bottom: 100px;
+}
+
+.special-offer__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.special-offer__item {
+  width: 500px;
+}
+
+.special-offer__item-box {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #fff;
+  text-align: center;
+  min-height: 400px;
+  margin-bottom: 25px;
+  padding: 40px 75px;
+}
+
+.special-offer__item-text {
+  font-size: 24px;
+  line-height: 29px;
+  width: 236px;
+}
+
+.special-offer__item-text span {
+  color: #CB0E0E;
+}
+
+.special-offer__newprice {
+  font-size: 48px;
+  line-height: 57px;
+}
+
+.special-offer__oldprice {
+  text-align: right;
+  font-size: 14px;
+  line-height: 17px;
 }
