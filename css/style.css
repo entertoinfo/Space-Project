@@ -273,10 +273,6 @@ body {
   padding-bottom: 100px;
 }
 
-.container {}
-
-.title {}
-
 .how-to__box {
   text-align: center;
 }
@@ -356,6 +352,7 @@ foreignObject {
 .special-offer__item-box {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   border: 1px solid #fff;
   text-align: center;
   min-height: 400px;
@@ -367,19 +364,32 @@ foreignObject {
   font-size: 24px;
   line-height: 29px;
   width: 236px;
+  margin: 0 auto;
 }
 
 .special-offer__item-text span {
   color: #CB0E0E;
 }
 
-.special-offer__newprice {
+.special-offer__new-price {
   font-size: 48px;
   line-height: 57px;
 }
 
-.special-offer__oldprice {
+.special-offer__old-price {
   text-align: right;
   font-size: 14px;
   line-height: 17px;
+  margin-bottom: 16px;
+}
+
+.special-offer__old-price::before{
+  content: '';
+  width: 68px;
+  height: 1px;
+  background-color: #CB0E0E;
+  position: absolute;
+  /* top: 7px; right: 0; */
+  transform: rotate(15deg);
+  
 }
