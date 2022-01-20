@@ -429,15 +429,15 @@ foreignObject {
   position: relative;
 }
 
-.services__list-item::before{
+.services__list-item::before {
   content: '';
   position: absolute;
   width: 20px;
   height: 20px;
   background-color: #fff;
   border-radius: 50%;
-  left:-2px;
-  top:5px;
+  left: -2px;
+  top: 5px;
 }
 
 .services__description {
@@ -445,4 +445,63 @@ foreignObject {
   line-height: 14px;
 }
 
-.services__buttons {}
+.services__btn {
+  width: 500px;
+  height: 60px;
+}
+
+.services__btn--first {
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.services__btn--first::before {
+  content: '';
+  position: absolute;
+  right: -6px;
+  bottom: 38px;
+  background-image: url(/images/Astronaut.png);
+  height: 150px;
+  width: 192px;
+}
+
+.slider {
+  text-align: center;
+}
+
+.slider__inner {
+  margin-bottom: 50px;
+  border: 1px solid #FFF;
+  padding: 100px 0;
+}
+
+.slider__box {
+
+}
+
+.slider__box-item {}
+
+.slider__descriptoin {
+  font-family: 'spaceagecyrillic';
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.slider__box-img {
+  margin: 0 auto;
+}
+
+.slider__arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+}
+
+.slider__arrow-left{
+  left: 70px;
+}
+
+.slider__arrow-right{
+  right: 70px;
+}
