@@ -116,6 +116,39 @@ body {
   color: #CB0E0E;
 }
 
+.menu-btn {
+  display: none;
+  width: 40px;
+  padding: 0;
+}
+
+.menu-btn span {
+  display: block;
+  height: 4px;
+  background-color: #fff;
+  position: relative;
+  border-radius: 30px;
+}
+
+.menu-btn span::before,
+.menu-btn span::after {
+  content: '';
+  width: 40px;
+  height: 4px;
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+  border-radius: 30px;
+}
+
+.menu-btn span::before {
+  top: -10px;
+}
+
+.menu-btn span::after {
+  top: 10px;
+}
+
 .phone {
   font-size: 24px;
   line-height: 29px;
@@ -599,19 +632,20 @@ foreignObject {
   width: 165px;
 
 }
+
 .footer__menu-item,
-.footer__links-item{
-margin-bottom: 20px;
+.footer__links-item {
+  margin-bottom: 20px;
 
 }
 
 .footer__links-link,
-.footer__menu-link{
+.footer__menu-link {
   text-transform: uppercase;
   transition: .5s;
 }
 
 .footer__links-link:hover,
-.footer__menu-link:hover{
+.footer__menu-link:hover {
   color: #CB0E0E;
 }
