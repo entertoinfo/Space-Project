@@ -211,7 +211,7 @@ body {
   line-height: 17px;
 }
 
-.header__description-text+.header__description-text {
+.header__description-text:not(:last-of-type) {
   margin-right: 50px;
 }
 
