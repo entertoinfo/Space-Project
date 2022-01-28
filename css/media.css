@@ -4,10 +4,51 @@
   }
 }
 @media (max-width: 880px){
+  .header__top{
+    padding-top: 30px;
+  }
   .menu-btn{ 
     display: block;
   }
   .menu__list{
-    display: none;
+    transform: translateY(-150%);
+    transition: all .5s;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #010203;
+    padding-top: 90px;
+    padding-bottom: 30px;
+    text-align: center ;
+    width: 100%;
+  }
+  .menu__list.active{
+    transform: translateY(0);
+  }
+  
+  .menu__item{
+    padding: 15px 0;
+  }
+  .menu__link{
+    display: block;
+  }
+  .phone,
+  .login{
+    position: relative;
+    z-index: 20;
+  }
+
+  .header__content{
+    margin: 0 auto;
+  }
+
+  .header__description{
+    justify-content: center;
+  }
+
+  .header{
+    background-position: center right;
   }
 }

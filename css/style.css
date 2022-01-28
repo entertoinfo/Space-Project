@@ -120,6 +120,9 @@ body {
   display: none;
   width: 40px;
   padding: 0;
+  position: relative;
+  z-index: 20;
+  height: 30px;
 }
 
 .menu-btn span {
