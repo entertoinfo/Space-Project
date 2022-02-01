@@ -4,9 +4,7 @@ $('.slider__box').slick({
   nextArrow: '<img class="slider__arrow slider__arrow-right" src="/images/arrow-right.svg" alt="arrow-right">',
   speed: 600,
 });
-
 $('.menu-btn').on('click' , function(){
   $('.menu__list').toggleClass('active');
 });
-
 });

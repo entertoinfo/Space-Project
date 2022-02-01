@@ -341,6 +341,10 @@ foreignObject {
   line-height: 25px;
 }
 
+.how-to__box-list{
+  display: none;
+}
+
 .to_book {
   background-image: url(/images/tobook-bg.png);
   background-size: cover;
