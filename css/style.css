@@ -372,6 +372,11 @@ foreignObject {
   margin-left: 0px;
 }
 
+.to_book__text-media{
+  display: flex;
+  justify-content: space-between;
+}
+
 .info {
   background-image: url(/images/info-bg.jpg);
   background-size: cover;

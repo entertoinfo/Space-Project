@@ -33,7 +33,30 @@
   .login {
     margin-right: 0;
   }
-  
+
+  .title {
+    padding: 50px 0;
+  }
+
+  .to_book__inner {
+    display: block;
+  }
+
+  .to_book__text {
+    margin: 0;
+    font-size: 17px;
+    line-height: 18px;
+  }
+
+  .to_book__text:not(:last-of-type) {
+    margin-right: 40px;
+  }
+
+  .to_book__text-media {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
 }
 
 @media (max-width: 880px) {
@@ -175,6 +198,21 @@
   .about__table-td:not(:last-of-type) {
     border-bottom: 1px solid #fff;
   }
+
+  .to_book {
+    background-position: left;
+  }
+
+  .to_book__text {
+    font-size: 15px;
+    line-height: 17px;
+  }
+
+  .title__book-media {
+    padding: 30px 0;
+    font-size: 36px;
+    line-height: 36px;
+  }
 }
 
 @media (max-width: 435px) {
@@ -224,6 +262,26 @@
   .title {
     padding: 20px 0;
   }
+
+  .to_book__text {
+    font-size: 14px;
+  }
+
+  .to_book__text-media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .title__book-media {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .to_book__text:not(:last-of-type) {
+    margin-bottom: 15px;
+    margin-right: 0;
+  }
 }
 
 @media (max-width: 370px) {
@@ -232,8 +290,8 @@
   }
 
   .title {
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 26px;
+    line-height: 29px;
   }
 
 }
