@@ -57,6 +57,42 @@
     justify-content: center;
     flex-direction: row;
   }
+
+  .special-offer__inner {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+  }
+
+  .special-offer__item {
+    width: 420px;
+  }
+
+  .services__inner {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .services__box-list {
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+  .services__list-item {
+    padding-left: 20px;
+}
+  .services__btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .services__list-item::before{
+    left: -10px;
+  }
 }
 
 @media (max-width: 880px) {
